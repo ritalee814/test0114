@@ -1,0 +1,10 @@
+suspect_list=['Capone','Castillo','Flores']
+name_list=['alex','bob','Capone','darren','eason']
+
+for name in name_list:
+    print("Check name:" + name)
+    
+    if name in suspect_list:  # 如果變數 name 與在suspect_list 內 相同
+        print("Find the suspect " + name +"!!!!")
+        break  ## 結束迴圈
+        
