@@ -1,0 +1,9 @@
+## def = define function
+
+
+def hello():
+    a=3 
+    print("Hello world!!!" * a)
+    print("Hello world!!!Hello world!!!")
+
+hello()

@@ -1,0 +1,6 @@
+num_list = [2,3,4,5,7,100]
+
+print("The sum is:", sum(num_list))
+print("The maximum is:", max(num_list))
+print("The minimum is:", min(num_list))
+print("The sorted number list is:", sorted(num_list))

@@ -1,0 +1,7 @@
+namebook=[]
+name=input("Please enter student's name, or enter X to end.  ")
+
+while not name == 'X':
+    namebook = namebook + [name]
+    name = input("Please enter student's name, or enter X to end.  ")
+print("There are all student's list:", namebook)

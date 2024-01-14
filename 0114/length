@@ -1,0 +1,2 @@
+my_text = "adberere"  ## len是算長度的函數
+print(len(my_text))

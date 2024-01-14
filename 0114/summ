@@ -1,0 +1,7 @@
+sum=0  # 加法器
+while True:
+    number= float(input("Please enter number"))
+    if number == 0:
+        break
+    sum=sum + number
+print(sum)

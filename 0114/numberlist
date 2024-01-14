@@ -1,0 +1,6 @@
+num_list = [2,3,4,5,7]
+sum_of_number = sum(num_list)
+
+print(sum_of_number)
+
+print(type(sum_of_number))

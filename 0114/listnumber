@@ -1,0 +1,5 @@
+number = [1,18,-5,88,178,-92]  ## 只印出正數，負數不要!
+for i in number:
+    if i < 0:
+        continue
+    print(i)

@@ -1,0 +1,8 @@
+## while 廻圈
+
+i = 0
+while i < 3:  # 只要i小於3 就執行
+    print(i)
+    i=i+1
+print("End!")
+
