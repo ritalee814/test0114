@@ -1,0 +1,11 @@
+scoretable = [87, 94, 80, 88, 70, 62, 50, 20,30,111,-59]
+new_scoretable=[]  # 新表 定義 
+
+for score in scoretable:
+    if score <= 90:  #若分數小於90 請加10分
+        new_score = score + 10
+    else:
+        new_score = 100  ##如果大於90分就直接以100計算
+    new_scoretable = new_scoretable + [new_score]
+        
+print("Here is new scoretable", new_scoretable)

@@ -1,0 +1,3 @@
+my_foodlist = ["Seafood","Steak","Sashimi","Coffee","Shrimp"]  ## for 物件 in list
+for i in my_foodlist:
+    print(i)

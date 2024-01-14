@@ -1,0 +1,2 @@
+for i in range(1,29,7):  ## 1 到29 每次都加7 
+    print(i)

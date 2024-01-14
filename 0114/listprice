@@ -1,0 +1,9 @@
+price_list = {
+    'Wagyu': 1000, 
+    'Sashimi':600,
+    'Sushi':300,
+    'Tempura': 400
+}
+
+for food in price_list:
+    print(food, price_list[food])

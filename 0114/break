@@ -1,0 +1,8 @@
+student=['alex','bob','capone','darren','eason']
+
+for name in student:
+    if name == 'darren':
+        break
+    
+    print(name)
+    

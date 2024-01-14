@@ -1,0 +1,5 @@
+number_list = [3,10,13,53,93]
+sum=0
+for number in number_list:
+    sum=sum+number
+print(sum)

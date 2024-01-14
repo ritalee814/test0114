@@ -1,0 +1,10 @@
+score = 50
+
+if score < 60:
+    print("You are failed!")
+    if score < 40:
+        print("Please retake this course!")
+    else:
+        print("But you have one more chance.")
+else:
+    print("Congratulation! You are Passed!")

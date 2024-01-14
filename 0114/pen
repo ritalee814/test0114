@@ -1,0 +1,4 @@
+# for Loop
+
+for box in ["red" ,"green", "blue", "black"]:
+    print("Get out", box, "pen!", "Let's painiting!")  #印出所有的筆!
