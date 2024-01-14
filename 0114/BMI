@@ -1,0 +1,14 @@
+height= float(input("Please enter your height(cm)."))/100
+weight= float(input("Please enter your weight(kg)."))
+
+BMI =(weight / (height*height))
+
+new_weight = float(25 * ((height*height)))
+
+print("Your BMI is",'%.2f'%BMI)
+
+if not BMI > 25: 
+    print("You can eat all the time!")
+else:
+    print("Please don't eat anymore! You need to go on a diet until your weight is", '%.2f'%new_weight)
+    

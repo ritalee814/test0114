@@ -1,0 +1,8 @@
+day=int(input("What day is today, please enter (0 - 6)?"))
+if (day == 0 or day == 6):
+    print("Today is weekend! Let's go out!")
+elif(day >0 and day <6):
+    print("Today is weekday, please work hard!!!")
+
+else:
+    print("The number is not correct, please type again! Thanks!")

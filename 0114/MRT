@@ -1,0 +1,17 @@
+# create MRT color code 
+MRT_color_book = {'R': "Tamsui Xinyi Line", 
+                  'G': "SongshanXindian Line",
+                  'BR': "Wunhu Line",
+                  'BL': "BanNan Line",
+                  'Y': "Circle Line",
+                  'O': "ZhongXinLu Line"}
+
+# Please enter the color code.
+c = input("Please enter the color code (R/G/BR/BL/Y/O)")
+
+# If not in the disctionary, tell user not exist.
+
+if c not in MRT_color_book:
+    print("There is no this line!")
+else:
+    print(MRT_color_book[c])
